@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-const Result = ({ showResult, quizs, marks, startOver, questionAnswer }) => {
+const Result = ({ showResult, quizs, marks, quizHeading, questionAnswer }) => {
 
     const [advise, setAdvise] = useState('')
 
     const fetchData = async () => {
         try {
-            const { data } = await axios.post('http://localhost:7000', data)
+            const { data } = await axios.post('http://localhost:8000', { questionAnswer, quizHeading })
                 .then(response => {
                     console.log('Response:', response.data);
                     setAdvise(response.data);

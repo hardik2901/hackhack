@@ -11,6 +11,7 @@ function Quizscreen() {
     const [correctAnswer, setCorrectAnswer] = useState('');
     const [selectedAnswer, setSelectedAnswer] = useState('');
     const [marks, setMarks] = useState(0);
+    const [quizHeading, setQuizHeading] = useState('');
 
     const [questionAnswer, setQuestionAnswer] = useState([]);
 
@@ -43,6 +44,7 @@ function Quizscreen() {
         setQuestionSet('quiz1.json');
         setShowStart(false);
         setShowQuiz(true);
+        setQuizHeading('Retirement Planning');
 
     }
 
@@ -50,18 +52,21 @@ function Quizscreen() {
         setShowStart(false);
         setShowQuiz(true);
         setQuestionSet('quiz2.json');
+        setQuizHeading('Childs Marriage');
     }
 
     const startQuiz3 = () => {
         setShowStart(false);
         setShowQuiz(true);
         setQuestionSet('quiz3.json');
+        setQuizHeading('House Buying');
     }
 
     const startQuiz4 = () => {
         setShowStart(false);
         setShowQuiz(true);
         setQuestionSet('quiz4.json');
+        setQuizHeading('Children Higher Education');
     }
 
 
@@ -176,6 +181,7 @@ function Quizscreen() {
 
             {/* Result Page */}
             <Result
+                quizHeading={quizHeading}
                 showResult={showResult}
                 quizs={quizs}
                 marks={marks}
