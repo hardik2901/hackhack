@@ -1,6 +1,28 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 const Result = ({ showResult, quizs, marks, startOver, questionAnswer }) => {
+
+    const [advise, setAdvise] = useState('')
+
+    const fetchData = async () => {
+        try {
+            const { data } = await axios.post('http://localhost:7000', data)
+                .then(response => {
+                    console.log('Response:', response.data);
+                    setAdvise(response.data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    useEffect(() => {
+        fetchData();
+    }, [])
+
 
     return (
         <section className="bg-dark text-white" style={{ display: `${showResult ? 'block' : 'none'}` }}>
@@ -9,12 +31,7 @@ const Result = ({ showResult, quizs, marks, startOver, questionAnswer }) => {
                     <div className="col-lg-6">
                         <div className={`text-light text-center p-5 rounded ${marks > (quizs.length * 5 / 2) ? 'bg-success' : 'bg-danger'}`}>
                             <ul className="list-unstyled">
-                                {questionAnswer.map((entry, index) => (
-                                    <li key={index}>
-                                        <strong>Question {index + 1}:</strong> {quizs.find(q => q.id === entry.questionId)?.question}<br />
-                                        <strong>Your Answer:</strong> {entry.answer}
-                                    </li>
-                                ))}
+                                {advise}
                             </ul>
 
                         </div>

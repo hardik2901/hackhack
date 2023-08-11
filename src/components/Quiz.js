@@ -12,7 +12,7 @@ const Quiz = ({
     saveAnswer
 }) => {
     const renderOptionsOrInput = () => {
-        if (question.input === 0) {
+        if (question.input == 0) {
             return (
                 <input
                     type="text"
@@ -51,7 +51,7 @@ const Quiz = ({
                                 (questionIndex + 1) !== quizs.length ? (
                                     <button style={{ color: 'white' }} className={`next-button btn py-2 w-100 mt-3 fw-bold ${selectedAnswer || saveAnswer ? 'bg-success' : ''}`} onClick={nextQuestion} disabled={!selectedAnswer && !saveAnswer}>Next Question</button>
                                 ) : (
-                                    <button style={{ color: 'white' }} className={`next-button btn py-2 w-100 mt-3 fw-bold ${selectedAnswer || saveAnswer ? 'bg-success' : ''}`} onClick={showTheResult} disabled={!selectedAnswer && !saveAnswer}>Show Result</button>
+                                    <button style={{ color: 'white' }} className={`next-button btn py-2 w-100 mt-3 fw-bold ${selectedAnswer || saveAnswer ? 'bg-success' : ''}`} onClick={showTheResult} disabled={!selectedAnswer && !saveAnswer}>Show Advise</button>
                                 )
                             }
                         </div>

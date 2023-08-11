@@ -1,112 +1,110 @@
 [
     {
-        "id": "11",
-        "question": "11 of the following is the correct name of React.js?",
-        "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+        "question": "What is your current age?",
+        "input": 0
     },
     {
-        "id": "02",
-        "question": "Which of the following are the advantages of React.js?",
-        "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+        "question": "What is your approximate current annual income?",
+        "input": 0
     },
     {
-        "id": "03",
-        "question": "Which of the following is not a disadvantage of React.js?",
+        "question": "Which of the following best describes your financial status?",
+        "input": 1,
         "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
-        ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+            "Struggling to meet basic needs",
+            "Meeting expenses but saving minimally",
+            "Comfortably meeting expenses and saving regularly",
+            "Financially secure and saving significantly"
+        ]
     },
     {
-        "id": "04",
-        "question": "Which of the following command is used to install create-react-app?",
-        "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
-        ],
-        "answer": "npx create-react-app my-app"
+        "question": "At what age do you plan to arrange for your child's marriage?",
+        "input": 0
     },
     {
-        "id": "05",
-        "question": "What of the following is used in React.js to increase performance?",
+        "question": "What are your primary goals for your child's marriage?",
+        "input": 1,
         "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
-        ],
-        "answer": "Virtual DOM"
+            "Traditional and lavish celebration",
+            "Simple and meaningful ceremony",
+            "Providing financial security for the couple",
+            "Balancing celebration and financial responsibility",
+            "Other (please specify)"
+        ]
     },
     {
-        "id": "06",
-        "question": "What is the default port where webpack-server runs?",
-        "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
-        ],
-        "answer": "3000"
+        "question": "How much have you saved for your child's marriage so far?",
+        "input": 0
     },
     {
-        "id": "07",
-        "question": "How many numbers of elements a valid react component can return?",
+        "question": "Which types of investments do you currently have?",
+        "input": 1,
         "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
-        ],
-        "answer": "1"
+            "Stocks",
+            "Bonds",
+            "Real estate",
+            "Savings accounts",
+            "None of the above"
+        ]
     },
     {
-        "id": "08",
-        "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question": "How comfortable are you with financial risks related to your child's marriage planning?",
+        "input": 1,
         "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
-        ],
-        "answer": "Using the Array.map() method"
+            "Very risk-averse",
+            "Somewhat risk-averse",
+            "Balanced between risk and responsibility",
+            "Comfortable taking necessary risks"
+        ]
     },
     {
-        "id": "09",
-        "question": "What is a state in React?",
-        "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
-        ],
-        "answer": "Internal storage of the component."
+        "question": "Estimate the budget you are considering for your child's marriage.",
+        "input": 0
     },
     {
-        "id": "10",
-        "question": "What are the two ways to handle data in React?",
+        "question": "Do you anticipate any external financial support for your child's marriage?",
+        "input": 1,
         "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
-        ],
-        "answer": "State & Props"
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Have you discussed marriage-related financial planning with your child?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Have you considered potential inflation and cost increases related to your child's marriage?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you have any outstanding debts that might impact your child's marriage planning?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "How would you rate your confidence in managing the financial aspects of your child's marriage?",
+        "input": 1,
+        "options": [
+            "Very confident",
+            "Somewhat confident",
+            "Not very confident",
+            "Not confident at all"
+        ]
+    },
+    {
+        "question": "Is there anything else you would like to share about your child's marriage planning goals, concerns, or preferences?",
+        "input": 1
     }
 ]

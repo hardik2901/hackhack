@@ -1,112 +1,105 @@
 [
     {
-        "id": "31",
-        "question": "31 of the following is the correct name of React.js?",
-        "options": [
-            "React",
-            "React.js",
-            "ReactJS",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+        "question": "What is your child's current age?",
+        "input": 0
     },
     {
-        "id": "02",
-        "question": "Which of the following are the advantages of React.js?",
-        "options": [
-            "React.js can increase the application's performance with Virtual DOM.",
-            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-            "React.js can render both on client and server side.",
-            "All of the above"
-        ],
-        "answer": "All of the above"
+        "question": "What is your child's area of academic interest?",
+        "input": 1
     },
     {
-        "id": "03",
-        "question": "Which of the following is not a disadvantage of React.js?",
+        "question": "Which of the following best describes your child's academic performance?",
+        "input": 1,
         "options": [
-            "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-            "The library of React.js is pretty large.",
-            "The JSX in React.js makes code easy to read and write.",
-            "The learning curve can be steep in React.js."
-        ],
-        "answer": "The JSX in React.js makes code easy to read and write."
+            "Consistently high grades",
+            "Above-average grades",
+            "Average grades with occasional improvement",
+            "Struggling with academics"
+        ]
     },
     {
-        "id": "04",
-        "question": "Which of the following command is used to install create-react-app?",
-        "options": [
-            "npm install -g create-react-app",
-            "npx create-react-app my-app",
-            "npm install create-react-app",
-            "npm install -f create-react-app"
-        ],
-        "answer": "npx create-react-app my-app"
+        "question": "At what age do you anticipate your child's higher education to begin?",
+        "input": 0
     },
     {
-        "id": "05",
-        "question": "What of the following is used in React.js to increase performance?",
+        "question": "What are your primary goals for your child's higher education?",
+        "input": 1,
         "options": [
-            "Original DOM",
-            "Virtual DOM",
-            "Both A and B.",
-            "None of the above."
-        ],
-        "answer": "Virtual DOM"
+            "Pursuing a specialized career",
+            "Gaining a well-rounded education",
+            "Attending a prestigious institution",
+            "Minimizing education costs",
+            "Other (please specify)"
+        ]
     },
     {
-        "id": "06",
-        "question": "What is the default port where webpack-server runs?",
+        "question": "Have you started saving for your child's higher education?",
+        "input": 1,
         "options": [
-            "3000",
-            "8080",
-            "3030",
-            "6060"
-        ],
-        "answer": "3000"
+            "Yes",
+            "No"
+        ]
     },
     {
-        "id": "07",
-        "question": "How many numbers of elements a valid react component can return?",
-        "options": [
-            "1",
-            "2",
-            "3",
-            "Unlimited"
-        ],
-        "answer": "1"
+        "question": "What is your target budget for your child's higher education?",
+        "input": 0
     },
     {
-        "id": "08",
-        "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+        "question": "How familiar are you with different higher education options (e.g., universities, colleges, vocational schools)?",
+        "input": 1,
         "options": [
-            "Using the reduce array method",
-            "Using the <Each /> component",
-            "Using the Array.map() method",
-            "With a for/while loop"
-        ],
-        "answer": "Using the Array.map() method"
+            "Very familiar",
+            "Somewhat familiar",
+            "Not very familiar",
+            "Not familiar at all"
+        ]
     },
     {
-        "id": "09",
-        "question": "What is a state in React?",
-        "options": [
-            "A permanent storage.",
-            "Internal storage of the component.",
-            "External storage of the component.",
-            "None of the above."
-        ],
-        "answer": "Internal storage of the component."
+        "question": "Do you have a preferred location for your child's higher education?",
+        "input": 1
     },
     {
-        "id": "10",
-        "question": "What are the two ways to handle data in React?",
+        "question": "How would you rate your child's extracurricular activities and achievements?",
+        "input": 1,
         "options": [
-            "State & Props",
-            "Services & Components",
-            "State & Services",
-            "State & Component"
-        ],
-        "answer": "State & Props"
+            "Exceptional",
+            "Above-average",
+            "Average",
+            "Limited"
+        ]
+    },
+    {
+        "question": "Have you considered potential scholarship opportunities for your child's higher education?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Do you anticipate any financial assistance for your child's higher education?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "Have you discussed higher education plans with your child?",
+        "input": 1,
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "question": "How confident are you in helping your child make informed decisions about higher education?",
+        "input": 1,
+        "options": [
+            "Very confident",
+            "Somewhat confident",
+            "Not very confident",
+            "Not confident at all"
+        ]
     }
 ]

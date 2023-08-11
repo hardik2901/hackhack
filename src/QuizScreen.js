@@ -93,7 +93,7 @@ function Quizscreen() {
 
         const inputValue = event.target.value;
 
-        setSaveQuestion(question);
+        setSaveQuestion(question.question);
         setSaveAnswer(inputValue);
 
         const nextButton = document.querySelector('.next-button');
